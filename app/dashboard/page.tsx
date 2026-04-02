@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 import {
@@ -69,7 +69,7 @@ const CONTENT_TYPES = ['Blog Article', 'Product Page', 'Landing Page', 'How-To G
 const TONES = ['Professional', 'Conversational', 'Authoritative', 'Friendly', 'Technical', 'Persuasive']
 const WORD_COUNTS = ['800', '1200', '1500', '2000', '2500', '3000']
 
-export default function DashboardPage() {
+function DashboardClient() {
   const [form, setForm] = useState<FormState>({
     keyword: '',
     secondaryKeywords: '',
@@ -758,5 +758,13 @@ export default function DashboardPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function DashboardPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen grid place-items-center text-surface-400">Loading dashboard...</div>}>
+      <DashboardClient />
+    </Suspense>
   )
 }
