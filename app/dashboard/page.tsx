@@ -281,7 +281,7 @@ function DashboardClient() {
             <button
               onClick={handleGenerate}
               disabled={loading}
-              className="w-full flex items-center justify-center gap-2 bg-brand-500 hover:bg-brand-400 disabled:bg-surface-800 disabled:text-surface-600 text-white font-semibold py-4 rounded-xl transition-all hover:shadow-lg hover:shadow-brand-500/20 disabled:cursor-not-allowed"
+              className="w-full flex items-center justify-center gap-2 bg-brand-600 hover:bg-brand-500 disabled:bg-surface-800 disabled:text-surface-600 text-white font-semibold py-4 rounded-xl transition-all hover:shadow-lg hover:shadow-brand-500/20 disabled:cursor-not-allowed"
             >
               {loading ? (
                 <><Loader2 className="w-4 h-4 animate-spin" /> Generating content…</>

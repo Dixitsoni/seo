@@ -47,7 +47,7 @@ export default function HomePage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up" style={{ animationDelay: '0.3s', opacity: 0 }}>
-            <Link href="/dashboard" className="inline-flex items-center gap-2 bg-brand-500 hover:bg-brand-400 text-white px-8 py-4 rounded-xl font-semibold text-base transition-all hover:shadow-lg hover:shadow-brand-500/25 hover:-translate-y-0.5">
+            <Link href="/dashboard" className="inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-500 text-white px-8 py-4 rounded-xl font-semibold text-base transition-all hover:shadow-lg hover:shadow-brand-500/25 hover:-translate-y-0.5">
               Start Generating Free
               <ArrowRight className="w-4 h-4" />
             </Link>
@@ -138,7 +138,7 @@ export default function HomePage() {
         <div className="rounded-3xl bg-gradient-to-r from-brand-900/60 to-brand-800/40 border border-brand-700/40 p-12 text-center">
           <h2 className="font-display text-3xl md:text-4xl text-white mb-4">Ready to rank on page one?</h2>
           <p className="text-white mb-8 text-lg">No credit card. No fluff. Just results.</p>
-          <Link href="/dashboard" className="inline-flex items-center gap-2 bg-brand-500 hover:bg-brand-400 text-white px-8 py-4 rounded-xl font-semibold transition-all hover:shadow-lg hover:shadow-brand-500/25">
+          <Link href="/dashboard" className="inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-500 text-white px-8 py-4 rounded-xl font-semibold transition-all hover:shadow-lg hover:shadow-brand-500/25">
             Open the Generator
             <ArrowRight className="w-4 h-4" />
           </Link>
