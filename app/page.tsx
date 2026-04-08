@@ -23,6 +23,7 @@ export default function HomePage() {
         </div>
       </nav>
 
+      <main className="flex-1">
       {/* Hero */}
       <section className="flex-1 flex items-center justify-center px-6 py-24">
         <div className="max-w-4xl mx-auto text-center">
@@ -145,6 +146,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      </main>
       {/* Footer */}
       <footer className="border-t border-surface-800/60 py-5 px-6 text-center text-surface-600 text-sm">
         <div className="flex flex-col items-center justify-center gap-2 mb-2">

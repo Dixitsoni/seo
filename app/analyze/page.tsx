@@ -173,7 +173,7 @@ export default function AnalyzePage() {
         </div>
       </nav>
 
-      <div className="max-w-7xl mx-auto px-6 py-8">
+      <main className="max-w-7xl mx-auto px-6 py-8">
         <div className="mb-8">
           <h1 className="font-display text-3xl text-surface-50 mb-2">SEO Content Analyzer</h1>
           <p className="text-surface-500">Paste your content and get a detailed SEO audit with actionable recommendations.</p>
@@ -431,7 +431,7 @@ export default function AnalyzePage() {
             )}
           </aside>
         </div>
-      </div>
+      </main>
     </div>
   )
 }
