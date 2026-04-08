@@ -181,7 +181,7 @@ function DashboardClient() {
           {/* ─── LEFT PANEL: Form ─── */}
           <aside className="space-y-5">
             <div>
-              <h1 className="font-display text-2xl text-surface-50 mb-1">{toolConfig.title}</h1>
+              <h1 className="font-display text-2xl text-white mb-1">{toolConfig.title}</h1>
               <p className="text-sm text-surface-500">{toolConfig.subtitle}</p>
             </div>
 
@@ -220,8 +220,8 @@ function DashboardClient() {
                     onClick={() => setForm(p => ({ ...p, contentType: t }))}
                     className={`py-2 px-2 rounded-lg text-xs font-medium transition-colors border ${
                       form.contentType === t
-                        ? 'bg-brand-600 border-brand-500 text-white'
-                        : 'bg-surface-900 border-surface-700 text-surface-400 hover:border-surface-600'
+                        ? 'bg-brand-600 border-brand-500 text-black'
+                        : 'bg-surface-900 border-surface-700 text-black hover:border-surface-600'
                     }`}
                   >{t}</button>
                 ))}

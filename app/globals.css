@@ -14,22 +14,55 @@
   padding: 0;
 }
 
-.bg-white,
-.bg-white\/50,
-.bg-white\/40,
-.bg-white\/30,
-.bg-white\/20,
-.bg-white\/10 {
+[class*="bg-white"] {
   color: #000 !important;
 }
 
-.bg-white :is(a,button,input,textarea,select,span,p,div),
-.bg-white\/50 :is(a,button,input,textarea,select,span,p,div),
-.bg-white\/40 :is(a,button,input,textarea,select,span,p,div),
-.bg-white\/30 :is(a,button,input,textarea,select,span,p,div),
-.bg-white\/20 :is(a,button,input,textarea,select,span,p,div),
-.bg-white\/10 :is(a,button,input,textarea,select,span,p,div) {
+[class*="bg-white"] :is(a,button,input,textarea,select,label,span,p,div,h1,h2,h3,h4,h5,h6) {
   color: #000 !important;
+}
+
+[class*="bg-white"] input,
+[class*="bg-white"] textarea,
+[class*="bg-white"] select {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+[class*="bg-white"] input::placeholder,
+[class*="bg-white"] textarea::placeholder {
+  color: #666 !important;
+  opacity: 1 !important;
+}
+
+/* Ensure dark backgrounds keep light text */
+/* [class*="bg-surface-9"],
+[class*="bg-surface-8"],
+.bg-brand-600,
+.bg-brand-500,
+.bg-brand-700 {
+  color: #fff !important;
+} */
+
+/* [class*="bg-surface-9"] :is(a,button,input,textarea,select,label,span,p,div),
+[class*="bg-surface-8"] :is(a,button,input,textarea,select,label,span,p,div),
+.bg-brand-600 :is(a,button,input,textarea,select,label,span,p,div),
+.bg-brand-500 :is(a,button,input,textarea,select,label,span,p,div) {
+  color: #fff !important;
+} */
+
+[class*="bg-surface-9"] input::placeholder,
+[class*="bg-surface-8"] input::placeholder,
+[class*="bg-surface-9"] textarea::placeholder,
+[class*="bg-surface-8"] textarea::placeholder {
+  color: #999 !important;
+  opacity: 1 !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: inherit;
+  opacity: 0.7;
 }
 
 input,
@@ -91,12 +124,12 @@ body {
 }
 
 /* Button text should be light */
-button,
+/* button,
 button *,
 .btn,
 .btn * {
   color: #f8fafc !important;
-}
+} */
 
 /* Gradient mesh background */
 .bg-mesh {

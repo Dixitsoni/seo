@@ -169,13 +169,13 @@ export default function AnalyzePage() {
               <span className="font-display text-base text-surface-50">ContentRankLabs</span>
             </div>
           </div>
-          <Link href="/dashboard" className="text-sm text-surface-400 hover:text-surface-200 transition-colors">Content Generator →</Link>
+          <Link href="/dashboard" className="text-sm text-white hover:text-surface-200 transition-colors">Content Generator →</Link>
         </div>
       </nav>
 
       <main className="max-w-7xl mx-auto px-6 py-8">
         <div className="mb-8">
-          <h1 className="font-display text-3xl text-surface-50 mb-2">SEO Content Analyzer</h1>
+          <h1 className="font-display text-3xl text-white mb-2">SEO Content Analyzer</h1>
           <p className="text-surface-500">Paste your content and get a detailed SEO audit with actionable recommendations.</p>
         </div>
 

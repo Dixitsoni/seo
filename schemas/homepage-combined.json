@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "ContentRankLabs",
+      "url": "https://seo-57o6.vercel.app",
+      "logo": "https://seo-57o6.vercel.app/logo.png",
+      "description": "AI-powered SEO content generator and analyzer using Claude AI for creating high-quality, SEO-optimized articles and blog posts.",
+      "foundingDate": "2024",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "email": "support@contentranklabs.com"
+      },
+      "sameAs": [
+        "https://twitter.com/contentranklabs",
+        "https://linkedin.com/company/contentranklabs"
+      ],
+      "knowsAbout": [
+        "SEO Content Generation",
+        "AI Writing Tools",
+        "Search Engine Optimization",
+        "Content Marketing",
+        "Schema Markup",
+        "Technical SEO"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "name": "ContentRankLabs",
+      "url": "https://seo-57o6.vercel.app",
+      "description": "AI-powered SEO content generator and analyzer for creating high-quality, SEO-optimized articles, blog posts, and marketing content.",
+      "publisher": {
+        "@id": "https://seo-57o6.vercel.app/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://seo-57o6.vercel.app/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "ContentRankLabs",
+      "description": "AI-powered SEO content generator and analyzer that uses Claude AI to create high-quality, SEO-optimized articles, blog posts, and marketing content with built-in schema markup and real-time SEO scoring.",
+      "url": "https://seo-57o6.vercel.app",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free to use SEO content generation and analysis tool"
+      },
+      "featureList": [
+        "AI Content Generation",
+        "SEO Analysis and Scoring",
+        "Schema Markup Generation",
+        "Meta Tag Optimization",
+        "Keyword Density Analysis",
+        "Readability Scoring",
+        "PDF Report Export"
+      ],
+      "author": {
+        "@id": "https://seo-57o6.vercel.app/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://seo-57o6.vercel.app",
+      "name": "ContentRankLabs - AI-Powered SEO Content Generator",
+      "description": "Generate SEO-optimized content with AI. Create articles, analyze SEO performance, and optimize for search engines with ContentRankLabs.",
+      "isPartOf": {
+        "@id": "https://seo-57o6.vercel.app/#website"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://seo-57o6.vercel.app/og-image.png"
+      },
+      "datePublished": "2024-01-01",
+      "dateModified": "2024-01-15"
+    }
+  ]
+}

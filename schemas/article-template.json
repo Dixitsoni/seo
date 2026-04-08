@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Ultimate Guide to SEO Content Generation in 2024",
+  "description": "Comprehensive guide to creating SEO-optimized content using AI tools. Learn best practices for keyword research, content structure, and technical SEO implementation.",
+  "image": "https://seo-57o6.vercel.app/images/seo-content-guide.jpg",
+  "datePublished": "2024-01-15",
+  "dateModified": "2024-01-15",
+  "author": {
+    "@type": "Organization",
+    "name": "ContentRankLabs",
+    "url": "https://seo-57o6.vercel.app"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ContentRankLabs",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://seo-57o6.vercel.app/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://seo-57o6.vercel.app/blog/seo-content-generation-guide"
+  },
+  "articleSection": "SEO",
+  "keywords": ["SEO content generation", "AI writing tools", "content optimization", "keyword research", "technical SEO"],
+  "wordCount": "1200",
+  "timeRequired": "PT10M",
+  "inLanguage": "en-US",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "ContentRankLabs Blog",
+    "url": "https://seo-57o6.vercel.app/blog"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is ContentRankLabs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ContentRankLabs is an AI-powered SEO content generator and analyzer that uses Anthropic's Claude AI to create high-quality, SEO-optimized articles, blog posts, and marketing content with built-in schema markup and real-time SEO scoring."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the AI content generation work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our AI content generator analyzes your topic and target keywords, then creates comprehensive articles with proper structure including H1/H2 headings, engaging introductions, detailed body content, conclusions, and SEO-optimized meta tags. The AI ensures natural keyword integration and optimal content flow."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What SEO analysis features are included?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The SEO analyzer provides comprehensive audits including keyword density analysis, readability scoring, technical SEO checks, meta tag validation, schema markup detection, and actionable recommendations to improve your search engine rankings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is ContentRankLabs free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, ContentRankLabs is currently free to use. You only need to provide your own Anthropic API key to access Claude AI functionality. The tool includes all core features for content generation and SEO analysis."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of content can I generate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can generate various types of SEO-optimized content including blog posts, articles, landing pages, product descriptions, social media content, email newsletters, and marketing materials. The AI adapts to different content types and tones."
+      }
+    }
+  ]
+}

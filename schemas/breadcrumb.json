@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://seo-57o6.vercel.app"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Dashboard",
+      "item": "https://seo-57o6.vercel.app/dashboard"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Generate Content",
+      "item": "https://seo-57o6.vercel.app/dashboard"
+    }
+  ]
+}

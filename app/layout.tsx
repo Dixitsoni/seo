@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
+import AutoSEO from '../components/seo/AutoSEO'
+import SEOOptimizer from '../components/seo/SEOOptimizer'
 
 const dmMono = localFont({
   variable: '--font-mono',
@@ -43,7 +45,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${dmMono.variable} ${dmSans.variable} ${dmSerif.variable} light`}>
-      <body className="bg-mesh min-h-screen min-w-screen text-surface-900 dark:text-surface-50">{children}</body>
+      <body className="bg-mesh min-h-screen min-w-screen text-surface-900 dark:text-surface-50">
+        {/* Auto SEO Scripts */}
+        <AutoSEO />
+
+        {children}
+      </body>
     </html>
   )
 }

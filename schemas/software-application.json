@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ContentRankLabs",
+  "description": "AI-powered SEO content generator and analyzer that uses Claude AI to create high-quality, SEO-optimized articles, blog posts, and marketing content with built-in schema markup and real-time SEO scoring.",
+  "url": "https://seo-57o6.vercel.app",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web Browser",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "description": "Free to use SEO content generation and analysis tool"
+  },
+  "featureList": [
+    "AI Content Generation",
+    "SEO Analysis and Scoring",
+    "Schema Markup Generation",
+    "Meta Tag Optimization",
+    "Keyword Density Analysis",
+    "Readability Scoring",
+    "PDF Report Export"
+  ],
+  "screenshot": "https://seo-57o6.vercel.app/screenshot.png",
+  "author": {
+    "@type": "Organization",
+    "name": "ContentRankLabs"
+  },
+  "datePublished": "2024-01-01",
+  "softwareVersion": "1.0.0",
+  "fileSize": "Web Application"
+}

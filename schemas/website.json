@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "ContentRankLabs",
+  "url": "https://seo-57o6.vercel.app",
+  "description": "AI-powered SEO content generator and analyzer for creating high-quality, SEO-optimized articles, blog posts, and marketing content.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "ContentRankLabs"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://seo-57o6.vercel.app/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "inLanguage": "en-US",
+  "copyrightHolder": {
+    "@type": "Organization",
+    "name": "ContentRankLabs"
+  }
+}
