@@ -123,7 +123,7 @@ export default function HomePage() {
             return (
               <Link key={title} href={href} className={`block p-6 rounded-2xl border ${bg} hover:scale-[1.02] transition-transform shadow-lg hover:shadow-2xl hover:border-white/40 cursor-pointer`}>
                 <div className={`${color} mb-4`}>
-                  <Icon className="w-6 h-6" />
+                  <Icon className="w-6 h-6"/>
                 </div>
                 <h3 className="font-semibold text-white dark:text-surface-50 mb-2">{title}</h3>
                 <p className={`text-sm ${color} dark:text-surface-300 leading-relaxed`}>{desc}</p>
