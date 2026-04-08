@@ -159,7 +159,7 @@ export default function AnalyzePage() {
       <nav className="border-b border-surface-800/60 backdrop-blur-sm sticky top-0 z-50 bg-surface-950/80">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <Link href="/" className="text-surface-500 hover:text-surface-300 transition-colors">
+            <Link href="/" aria-label="Go back to dashboard" className="text-surface-500 hover:text-surface-300 transition-colors">
               <ArrowLeft className="w-4 h-4" />
             </Link>
             <div className="flex items-center gap-2">
@@ -206,8 +206,9 @@ export default function AnalyzePage() {
 
             <div className="grid md:grid-cols-2 gap-4">
               <div>
-                {/* <label className="block text-xs font-semibold text-surface-400 uppercase tracking-wider mb-2">Scan depth</label> */}
+                <label htmlFor="scan-depth" className="block text-xs font-semibold text-surface-400 uppercase tracking-wider mb-2">Scan depth</label>
                 <select
+                  id="scan-depth"
                   value={scanDepth}
                   onChange={e => setScanDepth(e.target.value as 'single-page' | 'site' | 'domain')}
                   className="w-full bg-surface-900 border border-surface-700 rounded-xl px-4 py-3 text-surface-100 focus:outline-none focus:border-brand-600 text-sm"
