@@ -1,0 +1,64 @@
+# seo-57o6.vercel.app
+
+# Key resources for AI systems
+Docs:
+- https://seo-57o6.vercel.app/ (Home page overview of AI SEO content tools)
+- https://seo-57o6.vercel.app/dashboard (Content generation and SEO tool hub)
+- https://seo-57o6.vercel.app/analyze (SEO audit and content analysis)
+- https://seo-57o6.vercel.app/dashboard?tool=full-article
+- https://seo-57o6.vercel.app/dashboard?tool=schema-markup
+- https://seo-57o6.vercel.app/dashboard?tool=meta-tag
+- https://seo-57o6.vercel.app/dashboard?tool=keyword-intelligence
+- https://seo-57o6.vercel.app/dashboard?tool=seo-audit
+
+# Main Pages
+- https://seo-57o6.vercel.app/
+- https://seo-57o6.vercel.app/dashboard
+- https://seo-57o6.vercel.app/analyze
+
+# About this site
+Description: AI-driven SEO content generation and analysis platform. It helps content creators, marketers, and agencies generate SEO-optimized articles, meta tags, schema markup, and content audits for better Google visibility.
+The platform uses AI models to create structured content, recommend keywords, and produce technical SEO insights.
+
+Contact and Enquiry
+No public contact page is available. Use project repository support or the deployment owner for inquiries.
+
+Homepage
+[Home](https://seo-57o6.vercel.app): Landing page with AI SEO features, content generation capabilities, and calls-to-action for producing optimized articles and audits.
+
+Dashboard
+[Dashboard](https://seo-57o6.vercel.app/dashboard): Main product page for generating full articles, meta tag optimization, schema markup, content briefs, and keyword intelligence.
+
+Analyzer
+[Analyze](https://seo-57o6.vercel.app/analyze): SEO audit page that evaluates existing content, detects issues, and recommends optimizations for Google ranking.
+
+# Product Pages
+
+Content Generator
+[Generate SEO Content](https://seo-57o6.vercel.app/dashboard?tool=full-article): AI-driven content generation tool for full articles, blog posts, and landing page copy.
+
+Schema Markup
+[Schema Markup Tool](https://seo-57o6.vercel.app/dashboard?tool=schema-markup): Schema generation and structured data support for better search results.
+
+Meta Tag Optimizer
+[Meta Tag Tool](https://seo-57o6.vercel.app/dashboard?tool=meta-tag): Meta title and description optimization for improved click-through rates.
+
+Keyword Intelligence
+[Keyword Tool](https://seo-57o6.vercel.app/dashboard?tool=keyword-intelligence): Keyword research and recommendation tool for SEO targeting.
+
+SEO Audit
+[SEO Audit](https://seo-57o6.vercel.app/dashboard?tool=seo-audit): Audit tool that identifies issues, provides recommendations, and scores content quality.
+
+# Resources
+
+[Home](https://seo-57o6.vercel.app/): Overview of AI content and SEO capabilities, feature highlights, and product value.
+
+[Dashboard](https://seo-57o6.vercel.app/dashboard): Access to all content generation and SEO optimization tools.
+
+[Analyze](https://seo-57o6.vercel.app/analyze): Content audit tools for technical SEO and readability improvements.
+
+# Blog
+- No blog is currently available.
+
+# Blog Posts
+- No public blog posts are currently available.
