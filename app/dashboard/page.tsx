@@ -248,7 +248,7 @@ function DashboardClient() {
 
             {/* Word count */}
             <div>
-              <label className="block text-xs font-semibold text-surface-400 uppercase tracking-wider mb-2">Target Word Count</label>
+              {/* <label className="block text-xs font-semibold text-surface-400 uppercase tracking-wider mb-2">Target Word Count</label> */}
               <select
                 value={form.wordCount}
                 onChange={e => setForm(p => ({ ...p, wordCount: e.target.value }))}

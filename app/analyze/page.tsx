@@ -206,7 +206,7 @@ export default function AnalyzePage() {
 
             <div className="grid md:grid-cols-2 gap-4">
               <div>
-                <label className="block text-xs font-semibold text-surface-400 uppercase tracking-wider mb-2">Scan depth</label>
+                {/* <label className="block text-xs font-semibold text-surface-400 uppercase tracking-wider mb-2">Scan depth</label> */}
                 <select
                   value={scanDepth}
                   onChange={e => setScanDepth(e.target.value as 'single-page' | 'site' | 'domain')}
