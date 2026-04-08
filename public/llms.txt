@@ -1,4 +1,4 @@
-# seo-57o6.vercel.app
+﻿# seo-57o6.vercel.app
 
 # Key resources for AI systems
 Docs:
@@ -23,42 +23,133 @@ The platform uses AI models to create structured content, recommend keywords, an
 Contact and Enquiry
 No public contact page is available. Use project repository support or the deployment owner for inquiries.
 
-Homepage
-[Home](https://seo-57o6.vercel.app): Landing page with AI SEO features, content generation capabilities, and calls-to-action for producing optimized articles and audits.
+# Markdown Content By URL
 
-Dashboard
-[Dashboard](https://seo-57o6.vercel.app/dashboard): Main product page for generating full articles, meta tag optimization, schema markup, content briefs, and keyword intelligence.
+## https://seo-57o6.vercel.app/
+Title: ContentRankLabs - SEO Content That Actually Ranks
 
-Analyzer
-[Analyze](https://seo-57o6.vercel.app/analyze): SEO audit page that evaluates existing content, detects issues, and recommends optimizations for Google ranking.
+Overview:
+- Landing page for the SEO AI suite with primary CTA to open the generator.
+- Secondary CTA for the SEO Analyzer.
 
-# Product Pages
+Hero:
+- Headline: SEO Content That Actually Ranks
+- Subhead: Generate keyword-optimized articles, meta tags, and content briefs in seconds.
+- CTAs: Start Generating Free, Analyze a URL
 
-Content Generator
-[Generate SEO Content](https://seo-57o6.vercel.app/dashboard?tool=full-article): AI-driven content generation tool for full articles, blog posts, and landing page copy.
+Feature Highlights:
+- Full Article Generation: H1, H2, body copy, meta title, and meta description.
+- Keyword Intelligence: search intent, clustering, and targeting.
+- SEO Score and Audit: keyword density, readability, structure, and meta optimization.
+- Schema Markup Generator: FAQ, HowTo, and Article JSON-LD.
+- Content Brief Builder: outlines, topics, angles.
+- Meta Tag Optimizer: title and description tuning for CTR.
 
-Schema Markup
-[Schema Markup Tool](https://seo-57o6.vercel.app/dashboard?tool=schema-markup): Schema generation and structured data support for better search results.
+CTA Banner:
+- Message: Ready to rank on page one?
+- CTA: Open the Generator
 
-Meta Tag Optimizer
-[Meta Tag Tool](https://seo-57o6.vercel.app/dashboard?tool=meta-tag): Meta title and description optimization for improved click-through rates.
+Footer:
+- Brand: ContentRankLabs (formerly SERPPrecision / KeywordVelocity)
 
-Keyword Intelligence
-[Keyword Tool](https://seo-57o6.vercel.app/dashboard?tool=keyword-intelligence): Keyword research and recommendation tool for SEO targeting.
+## https://seo-57o6.vercel.app/dashboard
+Title: Content Generator Dashboard
 
-SEO Audit
-[SEO Audit](https://seo-57o6.vercel.app/dashboard?tool=seo-audit): Audit tool that identifies issues, provides recommendations, and scores content quality.
+Overview:
+- Main product hub for AI SEO content generation.
+- Uses a left-side form and right-side results panel.
 
-# Resources
+Primary Inputs:
+- Primary Keyword (required)
+- Secondary Keywords (comma-separated)
+- Content Type (Blog Article, Product Page, Landing Page, How-To Guide, Listicle, Pillar Page)
+- Tone (Professional, Conversational, Authoritative, Friendly, Technical, Persuasive)
+- Target Word Count (800, 1200, 1500, 2000, 2500, 3000)
+- Target Audience
 
-[Home](https://seo-57o6.vercel.app/): Overview of AI content and SEO capabilities, feature highlights, and product value.
+Primary Action:
+- Generate SEO Content
 
-[Dashboard](https://seo-57o6.vercel.app/dashboard): Access to all content generation and SEO optimization tools.
+Results (Tabs):
+- Content: H1, introduction, H2 sections, conclusion
+- Meta Optimizer: improved meta title and description, variants
+- Schema: JSON-LD for Article, FAQPage, HowTo
+- Content Brief: intent, angle, audience, outline, link ideas, gaps, tone
+- Keyword Intel: intent breakdown, clusters, related and long-tail keywords
+- SEO Tips: recommendations list
 
-[Analyze](https://seo-57o6.vercel.app/analyze): Content audit tools for technical SEO and readability improvements.
+## https://seo-57o6.vercel.app/analyze
+Title: SEO Content Analyzer
 
-# Blog
-- No blog is currently available.
+Overview:
+- SEO audit page that evaluates content and provides recommendations.
 
-# Blog Posts
-- No public blog posts are currently available.
+Inputs:
+- Primary Keyword (required)
+- Page URL
+- Meta Description
+- Scan Depth (single page, site, domain)
+- Competitor URLs (comma-separated)
+- Content (required if URL is empty)
+
+Primary Action:
+- Run SEO Audit
+
+Outputs:
+- Overall SEO score and visual score ring
+- Word count, keyword density, estimated read time
+- Category breakdown: keyword usage, meta tags, readability, structure, content depth
+- Website audit details (technical SEO, mobile usability, performance, backlinks, canonical, robots, sitemap, hreflang)
+- Canonical and technical URLs
+- Backlink summary
+- Audit history (local storage)
+- Competitor comparison (optional)
+- Issues found (severity and priority)
+- Recommendations list
+- Export Audit PDF
+
+## https://seo-57o6.vercel.app/dashboard?tool=full-article
+Title: Content Generator
+Subtitle: Fill in your target keyword and preferences, then let AI do the writing.
+
+Primary Outputs:
+- Full article content with H1, introduction, H2 sections, and conclusion
+- Meta title and meta description
+- FAQ schema
+- SEO tips, keyword density, and read time
+
+## https://seo-57o6.vercel.app/dashboard?tool=schema-markup
+Title: Schema Markup Generator
+Subtitle: Generate FAQ, HowTo, and Article JSON-LD schema for rich results.
+
+Primary Outputs:
+- JSON-LD for Article, FAQPage, and HowTo
+- FAQ question and answer list
+
+## https://seo-57o6.vercel.app/dashboard?tool=meta-tag
+Title: Meta Tag Optimizer
+Subtitle: Optimize title and description with keyword intent for CTR lift.
+
+Primary Outputs:
+- Improved meta title and description
+- Title and description variants
+- Meta tag issue list
+
+## https://seo-57o6.vercel.app/dashboard?tool=keyword-intelligence
+Title: Keyword Intelligence
+Subtitle: Discover intent and long-tail clusters to power your content strategy.
+
+Primary Outputs:
+- Primary intent and intent breakdown
+- Keyword clusters and related terms
+- Long-tail keywords and People Also Ask
+- Difficulty and volume estimates
+
+## https://seo-57o6.vercel.app/dashboard?tool=seo-audit
+Title: SEO Score and Audit
+Subtitle: Get real-time scoring and recommendations for content optimization.
+
+Primary Outputs:
+- SEO score and KPI tiles
+- SEO recommendations list
+- Keyword density and read time
