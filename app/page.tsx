@@ -15,7 +15,7 @@ export default function HomePage() {
             <span className="font-display text-lg text-white dark:text-surface-50">ContentRankLabs</span>
           </div>
           <div className="flex items-center gap-4">
-            <Link href="/analyze" className="text-sm text-white hover:text-surface-900 transition-colors">SEO Analyzer</Link>
+            <Link href="/analyze" className="text-sm text-surface-900 dark:text-white hover:text-surface-600 transition-colors">SEO Analyzer</Link>
             <Link href="/dashboard" className="text-sm bg-brand-600 hover:bg-brand-500 text-white px-4 py-2 rounded-lg transition-colors font-medium">
               Get Started
             </Link>
@@ -28,10 +28,6 @@ export default function HomePage() {
       <section className="flex-1 flex items-center justify-center px-6 py-24">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-brand-900/40 border border-brand-700/50 text-brand-300 px-4 py-1.5 rounded-full text-sm font-medium mb-8 animate-fade-in">
-            <Zap className="w-3.5 h-3.5" />
-            {/* Powered by Claude AI */}
-          </div>
 
           {/* Headline */}
           <h1 className="font-display text-5xl md:text-7xl text-blue-200 leading-[1.05] mb-6 animate-slide-up" style={{ animationDelay: '0.1s', opacity: 0 }}>
