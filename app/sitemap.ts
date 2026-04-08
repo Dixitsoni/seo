@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://contentranklabs.com'
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://seo-57o6.vercel.app'
   const now = new Date().toISOString().split('T')[0]
 
   return [
